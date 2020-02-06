@@ -202,7 +202,6 @@ const VacationCreate = () => (
 /* Документ */
 
 const Document = () => {
-  const history = useHistory();
   const [items, setItems] = React.useState([]);
   const [fetch, setFetch] = React.useState(false);
 
